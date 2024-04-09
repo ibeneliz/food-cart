@@ -1,5 +1,9 @@
-export default function ProductsPage () {
+import ProductDetailsPage from "./ProductDetails";
+
+export default function ProductsPage() {
     return (
-        <h1>The Products Page</h1>
+        <>
+            <ProductDetailsPage />
+        </>
     );
 }
